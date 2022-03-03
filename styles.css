@@ -1,0 +1,59 @@
+body {
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 15px;
+	letter-spacing: 5px;
+	background-color: black;
+	color: white;
+}
+#FileInput {
+	margin-left: 1em;
+	display: block;
+}
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#container {
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 1rem;
+	max-width: fit-content;
+}
+.title {
+	padding: 1rem;
+	font-size: 2rem;
+	color: green;
+}
+.button {
+	margin-left: 1em;
+	margin-top: 2em;
+	padding: 0.5rem 1rem;
+	border-radius: 10px;
+	border: 1px solid white;
+	background: none;
+	color: white;
+	text-transform: uppercase;
+	transition: all 250ms ease-in-out;
+}
+.button:hover {
+	cursor: pointer;
+}
+.render {
+	border-color: green;
+	color: green;
+}
+.render:hover {
+	background-color: green;
+	color: white;
+}
+.clear {
+	color: red;
+	border-color: red;
+}
+.clear:hover {
+	color: white;
+	background-color: red;
+}
